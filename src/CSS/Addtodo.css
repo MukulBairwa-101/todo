@@ -1,0 +1,49 @@
+.card{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    text-align: start;
+}
+.card-container h3{
+    font-size: 1.8rem;
+    font-family: 'Roboto' ;
+    display: flex;
+    justify-content: flex-start;
+}
+.addtodo-form{
+    width:100%;
+    font-size: 1.2rem;
+    font-family: 'Roboto' ,sans-serif;
+}
+.addtodo-form input[type=text]{
+    width:80%;
+    padding-left: 2rem;
+    margin: 1.3rem 0rem;
+    color:rgb(56, 55, 55);
+    height: 5vh;
+    letter-spacing: .1rem;
+    font-family: 'Roboto' ,sans-serif;
+    text-transform: capitalize;
+
+}
+.addtodo-form label{
+    color:rgb(141, 0, 0);
+    
+
+}
+.addtodo-form button[type=submit]{
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color:green;
+    color: white;
+    border:.1rem solid green;
+}
+.addtodo-form button[type=submit]:hover{
+    background-color:rgb(88, 37, 37);
+}

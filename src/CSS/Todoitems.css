@@ -1,0 +1,35 @@
+.item-list-wrapper{
+    display: flex;
+    justify-content: center;
+    box-shadow: .07rem .03rem .5rem rgb(177, 177, 177);
+    width: 50%;
+    margin-left: 15rem;
+}
+.item-list{
+    width:100%;
+    font-family: 'Roboto';
+    background-color: white;
+    /* padding-bottom: 5rem; */
+}
+.item-list h2,.item-list p{
+    text-align: start;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    width:auto;
+    
+}
+
+.item-list div,.item-list div button {
+    font-size: 1rem;
+    background-color:rgb(212, 212, 212);
+    color:white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+}
+.item-list div button{
+    background-color: dodgerblue;
+    padding:.3rem;
+}
+
